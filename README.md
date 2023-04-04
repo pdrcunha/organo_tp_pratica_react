@@ -1,5 +1,5 @@
 # Organo tp projeto em react para estudos do curso na alura
-# Em desenvolvimento.
+
 
 
 ### `npm start`
