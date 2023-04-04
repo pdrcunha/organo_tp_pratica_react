@@ -1,0 +1,22 @@
+.container-input-times{
+
+    display: flex;
+    flex-direction: column;
+    padding:8px;
+    align-items: center;
+    justify-content: center;
+
+}
+.container-input-times h3{
+    display: inline-block;
+    border-bottom: 3px solid;
+    padding-bottom: 4px;
+}
+.container-input-times .container-cards-times{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 8px;
+    padding: 8px 0px;
+}

@@ -1,0 +1,22 @@
+.container-input-text{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px;
+}
+.container-input-text label{
+    color: black;
+    font-weight: bold;
+}
+.container-input-text input{
+    border:  none;
+    padding: 12px;
+    box-shadow: 2px 20px 33px -21px rgba(0,0,0,0.58);
+    outline: 0;
+
+}
+.container-input-text input :focus{
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+}

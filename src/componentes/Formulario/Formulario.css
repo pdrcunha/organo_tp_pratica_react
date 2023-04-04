@@ -1,0 +1,25 @@
+.container-form-center{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 12px;
+    margin-bottom: 12px;
+ 
+}
+
+
+.container-form-center h2{
+        margin: 0px;
+}
+
+.formulario-add-member{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(234, 234, 234);
+    border-radius: 15px;
+    padding: 16px 32px;   
+    box-shadow: 2px 20px 30px -21px rgba(0, 0, 0, 0.433);
+}

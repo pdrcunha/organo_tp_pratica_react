@@ -1,0 +1,41 @@
+.container-card{
+    position: relative;
+}
+.container-card .cargo{
+    font-style: italic;
+}
+.container-card .deletar{
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    font-size: 1.2rem;
+    top:-8px;
+    right: -5px;
+    cursor: pointer;
+}
+.card{
+    max-width: 100px;
+    border: 4px solid #d4d4d4;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card .cargo{
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;  
+   text-overflow: ellipsis;
+}
+.card .nome{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.image-colab{
+    border-radius: 50%;
+    width: 70px;
+    aspect-ratio: 1;
+    object-fit: cover;
+}

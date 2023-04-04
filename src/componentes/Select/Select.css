@@ -1,0 +1,27 @@
+.container-input-select{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px;
+}
+.container-input-select label{
+    color: black;
+    font-weight: bold;
+}
+.container-input-select select{
+    border:  none;
+    padding: 12px;
+    box-shadow: 2px 20px 33px -21px rgba(0,0,0,0.58);
+    outline: 0;
+}
+.container-input-select option{
+    border:  none;
+    padding: 16px;
+    outline: 0;
+}
+
+.container-input-select select :focus{
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+}

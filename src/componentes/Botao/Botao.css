@@ -1,0 +1,12 @@
+.botao-padrao{
+    border: none;
+    color: white;
+    background-color: rgb(63, 104, 141);
+    text-align: center;
+    padding: 4px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 8px;
+    cursor: pointer ;
+}
